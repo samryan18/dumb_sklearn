@@ -2,7 +2,7 @@
 
 Based on the popular [scikit-learn](https://github.com/scikit-learn/scikit-learn) python package...just a little dumber.
 
-Wanted to learn some basics. Inspired by [Dumb Starbucks](https://www.youtube.com/watch?v=h0TRpGP8yH4) from Nathan for You :)
+Refreshing on the basics. Inspired by [Dumb Starbucks](https://www.youtube.com/watch?v=h0TRpGP8yH4) from Nathan for You :)
 
 ### Installation
 ```bash
