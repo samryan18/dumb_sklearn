@@ -12,5 +12,5 @@ setup(
     keywords="dumb AI",
     packages=["dumb_sklearn"],
     install_requires=["numpy"],
-    python_requires=">=3.4",
+    python_requires=">3.4",
 )
