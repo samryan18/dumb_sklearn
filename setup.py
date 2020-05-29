@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name="dumb_sklearn",
-    version="0.0.1",
+    version="0.0.0",
     description="Parody of the popular sklearn python package",
     long_description="",
     url="https://github.com/dumb_sklearn",
