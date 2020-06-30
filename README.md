@@ -1,7 +1,7 @@
 # dumb scikit-learn
 <img align="left" width="225" src="assets/logo.png">
 
-Based on the popular [scikit-learn](https://github.com/scikit-learn/scikit-learn) python package...just a little dumber.
+Work in progress. Based on the popular [scikit-learn](https://github.com/scikit-learn/scikit-learn) python package...just a little dumber.
 
 See: [Dumb Starbucks](https://www.youtube.com/watch?v=h0TRpGP8yH4).
 
