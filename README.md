@@ -1,8 +1,11 @@
 # dumb scikit-learn
+<img align="left" width="225" src="assets/logo.png">
 
 Based on the popular [scikit-learn](https://github.com/scikit-learn/scikit-learn) python package...just a little dumber.
 
-Refreshing on the basics. Inspired by [Dumb Starbucks](https://www.youtube.com/watch?v=h0TRpGP8yH4) from Nathan for You :)
+See: [Dumb Starbucks](https://www.youtube.com/watch?v=h0TRpGP8yH4).
+
+Refreshing on the basics.
 
 ### Installation
 ```bash
