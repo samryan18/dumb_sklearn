@@ -18,6 +18,23 @@ $ pip install dumb_sklearn
 [Implemented](https://github.com/samryan18/matlab-nn) in matlab. Sorry.
 
 ## 2. Principal Component Analysis (`dumb_sklearn.PCA`)
+The API for this model is very similar to the one in `sklearn`.
+
+### Basic usage:
+```python
+from dumb_sklearn import PCA
+
+X = get_some_data()
+pca = PCA(n_components=n_components, standardize=True)
+X_transform = pca.fit_transform(X)
+X_recon = pca.inverse_transform(X_transform)
+
+```
+
+### Example 1: Eigenfaces
+<details>
+<summary>In</summary>
+
 
 ```python
 from sklearn.datasets import fetch_lfw_people
@@ -59,7 +76,11 @@ plot_gallery(recon, recon_titles, h, w, n_row=2, n_col=7)
 
 ```
 
-### Output
+</details>
+
+<details>
+<summary>Out</summary>
+
 ##### ORIGINAL FACES
 ![ORIGINAL FACES](/assets/pca_original_faces.png)
 
@@ -74,3 +95,5 @@ plot_gallery(recon, recon_titles, h, w, n_row=2, n_col=7)
 
 ##### RECON FACES
 ![RECON FACES](/assets/pca_recon_faces.png)
+
+</details>
