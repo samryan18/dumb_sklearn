@@ -8,7 +8,7 @@ setup(
     url="https://github.com/dumb_sklearn",
     author="samryan18",
     author_email="samuelryan18@gmail.com",
-    license="just don't sue me",
+    license="just don't sue me :)",
     keywords="dumb AI",
     packages=["dumb_sklearn"],
     install_requires=["numpy"],
